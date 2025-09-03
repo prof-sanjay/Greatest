@@ -1,7 +1,6 @@
 import { useState } from 'react'
 
 function App() {
-  const [count, setCount] = useState(0)
   let arr=[19,15,7];
   let greatest=arr[0];
   for(let i=0;i<arr.length;i++){
